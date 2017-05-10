@@ -1,0 +1,79 @@
+array(3) {
+  [0]=>
+  string(13) "grep2json.php"
+  [1]=>
+  string(8) "boxstack"
+  [2]=>
+  string(11) "Makefile.in"
+}
+array(11) {
+  [81]=>
+  string(63) "noinst_PROGRAMS = demo_boxstack$(EXEEXT) demo_buggy$(EXEEXT) \
+"
+  [139]=>
+  string(42) "demo_boxstack_SOURCES = demo_boxstack.cpp
+"
+  [140]=>
+  string(48) "demo_boxstack_OBJECTS = demo_boxstack.$(OBJEXT)
+"
+  [141]=>
+  string(31) "demo_boxstack_LDADD = $(LDADD)
+"
+  [142]=>
+  string(32) "demo_boxstack_DEPENDENCIES =  \
+"
+  [404]=>
+  string(72) "SOURCES = demo_I.cpp demo_basket.cpp demo_boxstack.cpp demo_buggy.cpp \
+"
+  [417]=>
+  string(62) "DIST_SOURCES = demo_I.cpp demo_basket.cpp demo_boxstack.cpp \
+"
+  [657]=>
+  string(116) "demo_boxstack$(EXEEXT): $(demo_boxstack_OBJECTS) $(demo_boxstack_DEPENDENCIES) $(EXTRA_demo_boxstack_DEPENDENCIES) 
+"
+  [658]=>
+  string(31) "	@rm -f demo_boxstack$(EXEEXT)
+"
+  [659]=>
+  string(81) "	$(AM_V_CXXLD)$(CXXLINK) $(demo_boxstack_OBJECTS) $(demo_boxstack_LDADD) $(LIBS)
+"
+  [809]=>
+  string(77) "@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/demo_boxstack.Po@am__quote@
+"
+}
+
+81 1 23  | 0 16 18 41 61 
+
+139 2 5 29  | 0 22 24 
+
+140 2 5 29  | 0 22 24 
+
+141 1 5  | 0 20 22 
+
+142 1 5  | 0 27 29 30 
+
+404 1 42  | 0 8 10 21 37 55 70 
+
+417 1 47  | 0 13 15 26 42 60 
+
+657 4 5 31 56 92  | 0 24 49 79 115 
+
+658 1 13  | 0 5 8 
+
+659 2 32 57  | 0 25 50 73 
+
+809 1 54  | 0 26 
+[
+    81,
+    139,
+    140,
+    141,
+    142,
+    404,
+    417,
+    657,
+    658,
+    659,
+    809
+]
+{"81":{"m":[[["boxstack",23]]],"t":[["noinst_PROGRAMS",0],["=",16],["demo_boxstack$(EXEEXT)",18],["demo_buggy$(EXEEXT)",41],["\\\n",61]]},"139":{"m":[[["boxstack",5],["boxstack",29]]],"t":[["demo_boxstack_SOURCES",0],["=",22],["demo_boxstack.cpp\n",24]]},"140":{"m":[[["boxstack",5],["boxstack",29]]],"t":[["demo_boxstack_OBJECTS",0],["=",22],["demo_boxstack.$(OBJEXT)\n",24]]},"141":{"m":[[["boxstack",5]]],"t":[["demo_boxstack_LDADD",0],["=",20],["$(LDADD)\n",22]]},"142":{"m":[[["boxstack",5]]],"t":[["demo_boxstack_DEPENDENCIES",0],["=",27],["",29],["\\\n",30]]},"404":{"m":[[["boxstack",42]]],"t":[["SOURCES",0],["=",8],["demo_I.cpp",10],["demo_basket.cpp",21],["demo_boxstack.cpp",37],["demo_buggy.cpp",55],["\\\n",70]]},"417":{"m":[[["boxstack",47]]],"t":[["DIST_SOURCES",0],["=",13],["demo_I.cpp",15],["demo_basket.cpp",26],["demo_boxstack.cpp",42],["\\\n",60]]},"657":{"m":[[["boxstack",5],["boxstack",31],["boxstack",56],["boxstack",92]]],"t":[["demo_boxstack$(EXEEXT):",0],["$(demo_boxstack_OBJECTS)",24],["$(demo_boxstack_DEPENDENCIES)",49],["$(EXTRA_demo_boxstack_DEPENDENCIES)",79],["\n",115]]},"658":{"m":[[["boxstack",13]]],"t":[["\t@rm",0],["-f",5],["demo_boxstack$(EXEEXT)\n",8]]},"659":{"m":[[["boxstack",32],["boxstack",57]]],"t":[["\t$(AM_V_CXXLD)$(CXXLINK)",0],["$(demo_boxstack_OBJECTS)",25],["$(demo_boxstack_LDADD)",50],["$(LIBS)\n",73]]},"809":{"m":[[["boxstack",54]]],"t":[["@AMDEP_TRUE@@am__include@",0],["@am__quote@.\/$(DEPDIR)\/demo_boxstack.Po@am__quote@\n",26]]}}
